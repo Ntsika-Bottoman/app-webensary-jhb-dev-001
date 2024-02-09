@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <title>Webensary - Online Dispensary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="our-container">
+        <header class="nav-bar-top">
+          <div class="left-hand-side">
+            <nav class="navbar navbar-light bg-light">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#">
+                  <img src="./icons/WEBENSARY5.png" alt="logo" width="80" height="65">
+                </a>
+                <a href="logegphphtml.php">
+                  <img src="./icons/geo-alt.svg" alt="location" width="45" height="25">
+                </a>
+                <a href="logegphphtml.php">
+                  <button type="button" class="btn btn-success">LOGIN</button>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </header>
+        
+        <nav>
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark" style="border-radius: 5px;">
+            <div class="bg-dark p-4">
+              <h5 class="text-body-emphasis h4">Register</h5>
+              <span class="text-body-secondary">Don't have an Account? Don't Worry!</span>
+            </div>
+          </div>
+          <br>
+          <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark" style="border-radius: 5px;">
+            <div class="bg-dark p-4">
+              <h5 class="text-body-emphasis h4">About</h5>
+              <span class="text-body-secondary">Get Cannibis delivered straight to your door!</span>
+            </div>
+          </div>
+        </nav>
+        
+        <main>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./slideshowImages/marijuana-research-picture-id842130392.jpg" class="d-block w-100" alt="..." width="685" height="500">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Get a Prescription</h5>
+                      <p>Patients can get a prescription with Webensary on Prescriptions.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./slideshowImages/shutterstock_1703993029.jpg" class="d-block w-100" alt="..." width="685"height="500">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fill in your cart</h5>
+                      <p>Webensary offers free deliveries to our Patients.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./slideshowImages/87455301_233045181197470_9164219745799503872_n.jpg" class="d-block w-100" alt="..." width="685" height="500">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Enjoy Responsibly</h5>
+                      <p>Schedule your next delivery.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+    <!-- Card Container -->
+    <div class="container" id="container"></div>
+    <!-- Load Scripts -->
+            <script src="./js/data2.js"></script>
+            <script src="./js/index-app.js"></script>
+        </main>
+    
+        <aside>
+
+        </aside>
+    
+        <footer>
+            <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Webensary.co.za</a>, All Right Reserved.
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+    <a href="#" class="btn btn-lg btn-success btn-lg-square rounded-circle back-to-top">
+      <img src="./icons/arrow-up-circle.svg">
+    </a>
+        </footer>
+    </div>
+
+  </body>
+</html>
